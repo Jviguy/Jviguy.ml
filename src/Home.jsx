@@ -8,9 +8,9 @@ function Home() {
                     <div className="col-lg-7">
                         <a href="https://github.com/Jviguy">
                             <img
-                            className="img-fluid rounded mb-4 mb-lg-0"
-                            src="https://i2.wp.com/thequickblog.com/wp-content/uploads/2019/11/github.png?resize=900%2C400&ssl=1"
-                            alt=""
+                                className="img-fluid rounded mb-4 mb-lg-0"
+                                src="https://i2.wp.com/thequickblog.com/wp-content/uploads/2019/11/github.png?resize=900%2C400&ssl=1"
+                                alt=""
                             />
                         </a>
                     </div>

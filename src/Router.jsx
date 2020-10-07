@@ -7,7 +7,7 @@ function Navigation(props) {
         <div className="navigation">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
-                    <Link class="rainbow_text_animated" to="/">
+                    <Link className="rainbow_text_animated" to="/">
                         Jeremys Personal Website!
                     </Link>
                     <button
@@ -28,7 +28,7 @@ function Navigation(props) {
                                     props.location.pathname === "/" ? "active" : ""
                                 }`}
                             >
-                                <Link class="nav-link" to="/">
+                                <Link className="nav-link" to="/">
                                     Home
                                     <span className="sr-only">(current)</span>
                                 </Link>
@@ -38,7 +38,7 @@ function Navigation(props) {
                                     props.location.pathname === "/projects" ? "active" : ""
                                 }`}
                             >
-                                <Link class="nav-link" to="/contact">
+                                <Link className="nav-link" to="/projects">
                                     Projects
                                 </Link>
                             </li>
@@ -47,7 +47,7 @@ function Navigation(props) {
                                     props.location.pathname === "/about" ? "active" : ""
                                 }`}
                             >
-                                <Link class="nav-link" to="/about">
+                                <Link className="nav-link" to="/about">
                                     About
                                 </Link>
                             </li>
@@ -56,7 +56,7 @@ function Navigation(props) {
                                     props.location.pathname === "/contact" ? "active" : ""
                                 }`}
                             >
-                                <Link class="nav-link" to="/contact">
+                                <Link className="nav-link" to="/contact">
                                     Contact
                                 </Link>
                             </li>
