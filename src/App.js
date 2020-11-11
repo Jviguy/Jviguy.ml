@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
+import mquery from "./projects/mquery";
 import Mcpechatbot from "./projects/Mcpechatbot";
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/contact" exact component={() => <Contact/>} />
             <Route path="/projects" exact component={() => <Projects/>} />
             <Route path="/projects/mcpechatbot" exact component={() => <Mcpechatbot/>}/>
+            <Route path="/projects/mquery" exact component={() => <mquery/>}/>
           </Switch>
         </Router>
           <Footer/>
